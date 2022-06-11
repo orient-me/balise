@@ -9,7 +9,7 @@ edition = "2021"
 # A panic handler is needed.  This is a crate with the most basic one.
 panic-halt = "0.2.0"
 
-[dependencies.arduino-uno]
+[dependencies.arduino-hal]
 git = "https://github.com/Rahix/avr-hal"
 
 [build]
